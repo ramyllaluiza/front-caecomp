@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #fed136;
 }
 
 .navbar-default .nav li a:hover,
@@ -655,8 +655,20 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
+    background-image: url(../img/conteiner.jpeg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+iframe {
+    background-color: #f0f0f0; /* Cor de fundo como alternativa */
+    border: 2px solid #ccc; /* Contorno cinza */
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 550px; /* Largura */
+    height: 450px; /* Altura */
+    float: left; 
+    
 }
 
 section#contact .section-heading {
