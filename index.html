@@ -10,14 +10,14 @@
     <meta name="author" content="">
 
     <title>CAEComp - UFRN</title>
-    <link rel="icon" href="./img/header.svg" type="image/x-icon">
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./img/header.svg">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel='stylesheet' type='text/css' >
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
@@ -25,6 +25,8 @@
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     
+
+      
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,7 +45,7 @@
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only"></span>
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -53,11 +55,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#">CAECOMP</a>
+                    <li class="page-scroll">
+                        <a class="page-scroll" href="#page-top">Caecomp</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Quem somos</a>
@@ -84,9 +83,9 @@
     <!-- Header -->
     <header>
         <div class="container">
-            <div class="intro-text">
+            <div class="intro-text minha-div"">
                 <div class="intro-lead-in">Centro Acadêmico</div>
-                <div class="intro-heading">Engenharia <br> de <br> Computação <h4 >Universidade Federal do Rio Grande do Norte</h3></div>
+                <div class="intro-heading">Engenharia <br>de <br> Computação <h4>Universidade Federal do Rio Grande do Norte</h4></div>
                 <a href="#services" class="page-scroll btn btn-xl">Saiba mais</a>
             </div>
         </div>
@@ -136,23 +135,23 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Projetos</h2>
-                    <h3 class="section-subheading text-muted">Iniciativas que fortalecem o aprendizado, a integração e a representação dos alunos.</h3>
+                    <h3 class="section-subheading text-muted">Iniciativas que fortalecem o aprendizado, a integração e a representação dos alunos</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="img/portfolio/EstatutoCAEComp.pdf" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/estatuto.jpg" class="img-responsive" alt=""
-                        style="width: 365px; height: 260px;">
+                        <a href="img/portfolio/EstatutoCAEComp.pdf" target="_blank" class="img-responsive" data-toggle="modal">
+                        <img src="img/portfolio/estatuto.png" class="img-responsive" alt="" style="width: 200%; height: 350px"</a>
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Estatuto do CAEComp</h4>
-                        <p class="text-muted">Estatuto completo do CAEComp.</p>
+                        <h4>Estatuto CAEComp</h4>
+                        <p class="text-muted">Veja nosso estatuto completo do CAEComp.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -162,11 +161,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/Eventos.jpeg" class="img-responsive" alt="" style="width: 365px; height: 260px;">
+                        <img src="img/portfolio/eneds.png" class="img-responsive" alt="ENEDS" style="width: 200%; height: 350px">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Eventos</h4>
-                        <p class="text-muted">Divulgação de eventos e atividades.</p>
+                        <h4>ENEDS 2024 (Salvador/BA)</h4>
+                        <p class="text-muted"> Veja nossa participação no ENEDS 2024 (Salvador-BA).</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -176,11 +175,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/palestras.jpg" class="img-responsive" alt="" style="width: 350px; height: 260px;">
+                        <img src="img/portfolio/palestras.jpg" class="img-responsive" alt="mostra-de-profissoes" style="width: 200%; height: 350px">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Palestras</h4>
-                        <p class="text-muted">Participação de palestras e projetos.</p>
+                        <h4>Mostra de profissões 2024</h4>
+                        <p class="text-muted">Veja nossa participação na mostra de profissões 2024 - UFRN.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -190,11 +189,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/camisetas.png" class="img-responsive" alt="" style="width: 365px; height: 240px;">
+                        <img src="img/portfolio/camisetas.png" class="img-responsive" alt="camisas" style="width: 200%; height: 350px">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Camisas</h4>
-                        <p class="text-muted">Camisas personalizadas com a temática da engenharia.</p>
+                        <h4>Camisas EngComp</h4>
+                        <p class="text-muted">Veja as camisas disponíveis da Engenharia de Computação.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -204,11 +203,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/post1.png" class="img-responsive" alt="" style="width: 200%; height: 350px">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Gestões anteriores - CAEComp</h4>
+                        <p class="text-muted">Procura-se antigos gestores do CAEComp.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -218,12 +217,12 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/manual.png" class="img-responsive" alt="" style="width: 400px; height: 262px;">
+                        <img src="img/portfolio/manual.png" class="img-responsive" alt="" style="width: 200%; height: 350px">
 
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Manual dos Calouros</h4>
-                        <p class="text-muted">Clique para ver o manual dos calouros.</p>
+                        <h4>Manual do calouro 2024</h4>
+                        <p class="text-muted">Veja o manual do calouro de Engenharia de Computação - 2024</p>
                     </div>
                 </div>
             </div>
@@ -236,7 +235,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Gestões</h2>
-                    <h3 class="section-subheading text-muted">Nosso compromisso e liderança ao longo dos anos.</h3>
+                    <h3 class="section-subheading text-muted">Nosso compromisso e liderança ao longo dos anos</h3>
                 </div>
             </div>
             <div class="row">
@@ -244,7 +243,7 @@
                     <ul class="timeline">
                         <li>
                             <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.png" alt="">
+                                <img class="img-circle img-responsive" src="img/about/1.png" alt="gestão atual">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -252,12 +251,12 @@
                                     <h4 class="subheading">Gestão Frances Allen</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Marcelo Jorge Oliveira de Albuquerque Melo</p>
-                                    <p class="text-muted">Ramylla Luiza Barbalho Gomes Bezerra</p>
-                                    <p class="text-muted">Emelyn Clementino Freire</p>
-                                    <p class="text-muted">Maria Clara Moura de Freitas</p>
-                                    <p class="text-muted">Ariadne Cecília Evangelista da Silva</p>
-                                    <p class="text-muted">Arthur Phelipe de Oliveira Queiroz</p>
+                                    <p class="text-muted">Marcelo Melo | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/marceloalbuquerquemelo" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/9311248306281761" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p></p>
+                                    <p class="text-muted">Ramylla Barbalho | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/ramylla-barbalho-79085b21a/" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/8344067457915186" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                    <p class="text-muted">Emelyn Freire | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/emelynfreire/" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/5550751375072714" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                    <p class="text-muted">Maria Clara Freitas | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/mclaramfreitas/" target="_blank">LinkedIn</a> | <a href="" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                    <p class="text-muted">Ariadne da Silva | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/ariadne-cecília-evangelista-da-silva-95a40a1b3" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/6123472969547605" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                    <p class="text-muted">Arthur Queiroz | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/arthur-queiroz-327102330" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/9035308553273544" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
                                 </div>
                             </div>
                         </li>
@@ -271,15 +270,13 @@
                                     <h4 class="subheading">Gestão Grace Hopper</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Emelyn Clementino Freire</p>
-                                    <p class="text-muted">Maria Clara Moura de Freitas</p>
-                                    <p class="text-muted">Lucila Gabriela Gomes Costa</p>
-                                    <p class="text-muted">Iure Franklin de Lima Morais</p>
+                                    <p class="text-muted">Emelyn Freire | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/emelynfreire/" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/5550751375072714" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                    <p class="text-muted">Maria Clara Freitas | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/mclaramfreitas/" target="_blank">LinkedIn</a> | <a href="#" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                    <p class="text-muted">Lucila Costa </p>
+                                    <p class="text-muted">Iure Franklin Morais</p>
                                     <p class="text-muted">Ana Clara Fernandes Vieira</p>
-                                    <p class="text-muted">Marcelo Jorge Oliveira de Albuquerque Melo</p>
-                                </div>
-                                <div class="timeline-body">
-                                </div>
+                                    <p class="text-muted">Marcelo Melo | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/marceloalbuquerquemelo" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/9311248306281761" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p></p>
+                                   </div>
                             </div>
                         </li>
                         <li>
@@ -292,17 +289,17 @@
                                     <h4 class="subheading">Gestão Katherine Johnson</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Emelyn Clementino Freire</p>
+                                    <p class="text-muted">Emelyn Freire | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/emelynfreire/" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/5550751375072714" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
                                     <p class="text-muted">Enzo Rangel Monteiro da Silva</p>
-                                    <p class="text-muted">Deborah Victória Lima Moreira</p>
+                                    <p class="text-muted">Deborah Moreira | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/deborahvlmoreira/" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/5853260681120087" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
                                     <p class="text-muted">Ítalo Maciel de Paiva</p>
                                     <p class="text-muted">Marta Maira Brito Barbosa</p>
                                     <p class="text-muted">Kadja Nazareth Fernandes Rocha</p>
                                     <p class="text-muted">Yuri Ferreira Borges</p>
                                     <p class="text-muted">Ivamar Dantas Roque</p>
-                                    <p class="text-muted">Maria Clara Moura de Freitas</p>
-                                </div>
-                                <div class="timeline-body">
+                                    <p class="text-muted">Maria Clara Freitas | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/mclaramfreitas/" target="_blank">LinkedIn</a> | <a href="" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                 </div>
+                            </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
@@ -311,7 +308,7 @@
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>2020-2021</h4>
-                                    <h4 class="subheading">Gestão 2020-2021</h4>
+                                    <h4 class="subheading">Gestão 2020/2021</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Matheus Brito</p>
@@ -320,21 +317,19 @@
                                     <p class="text-muted">Aline Pereira</p>
                                     <p class="text-muted">Tales Costa</p>
                                     <p class="text-muted">Diego Diógenes</p>
-                                    <p class="text-muted">Manoel Neto</p>
-                                    <p class="text-muted">Larissa Kelmer</p>
-                                </div>
-                                <div class="timeline-body">
-                                </div>
+                                    <p class="text-muted">Manoel Neto | <a style="color: #01232d; text-decoration: underline;" href="https://www.linkedin.com/in/manoel-benedito-neto-751965169/" target="_blank">LinkedIn</a> | <a href="http://lattes.cnpq.br/5377290340781392" target="_blank" style="color: #01232d; text-decoration: underline;"">Lattes</a></p>
+                                    <p class="text-muted">Larissa Kelmer</p>                               
+                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline-image">
                             <div class="timeline-image">
                                 <img class="img-circle img-responsive" src="img/about/5.png" alt="">
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>2016-2017</h4>
-                                    <h4 class="subheading">Gestão 2016-2017</h4>
+                                    <h4 class="subheading">Gestão 2016/2017</h4>
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Clara Martins</p>
@@ -346,13 +341,13 @@
                                     <p class="text-muted">Daniel Morais</p>
                                     <p class="text-muted">Kyury</p>
                                 </div>
-                                <div class="timeline-body">
+                            </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
                                 <h4>Faça parte
                                     <br>da nossa
-                                    <br>historia!</h4>
+                                    <br>história!</h4>
                             </div>
                         </li>
                     </ul>
@@ -367,28 +362,28 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Membros</h2>
-                    <h3 class="section-subheading text-muted">Conecte-se com nossa equipe e acompanhe de perto quem está por trás deste projeto.</h3>
+                    <h3 class="section-subheading text-muted">Conecte-se com nossa equipe e acompanhe de perto quem está por trás deste projeto</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Kay Garland</h4>
-                        <p class="text-muted">Lead Designer</p>
+                        <img src="img/team/1.jpg" style="width: 250px; height: 250px" class="img-responsive img-circle" alt="marcelo">
+                        <h4>Marcelo Melo</h4>
+                        <p class="text-muted">Presidente</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            <li><a href="https://www.linkedin.com/in/marceloalbuquerquemelo" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            <li><a href="https://www.instagram.com/marcelomelo.br/" target="_blank"><i class="fa fa-instagram"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="http://lattes.cnpq.br/9311248306281761" target="_blank"><i class="fa fa-link"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/2.jpeg" class="img-responsive img-circle" style="width: 250px; height: 250px" alt="Ramylla" >
+                        <img src="img/team/2.jpeg" style="width: 250px; height: 250px"  class="img-responsive img-circle" alt="Ramylla">
                         <h4>Ramylla Barbalho</h4>
                         <p class="text-muted">Vice-Presidente</p>
                         <ul class="list-inline social-buttons">
@@ -399,11 +394,11 @@
                             <li><a href="http://lattes.cnpq.br/8344067457915186" target="_blank"><i class="fa fa-link"></i></a>
                             </li>
                         </ul>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/3.jpeg" class="img-responsive img-circle" style="width: 250px; height: 250px" alt="Emelyn" >
+                        <img src="img/team/3.jpeg" style="width: 250px; height: 250px" class="img-responsive img-circle" alt="Emelyn">
                         <h4>Emelyn Freire</h4>
                         <p class="text-muted">Secretária Geral</p>
                         <ul class="list-inline social-buttons">
@@ -412,9 +407,23 @@
                             <li><a href="https://www.instagram.com/emelynfreire/" target="_blank"><i class="fa fa-instagram"></i></a>
                             </li>
                             <li><a href="http://lattes.cnpq.br/5550751375072714" target="_blank" ><i class="fa fa-link"></i></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/6.jpg" class="img-responsive img-circle" alt="Clara">
+                        <h4>Maria Clara Freitas</h4>
+                        <p class="text-muted">Secretária Adjunta</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.linkedin.com/in/mclaramfreitas/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-link"></i></a>
                             </li>
                         </ul>
-                    </div>    
+                    </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
@@ -422,11 +431,11 @@
                         <h4>Arthur Queiroz</h4>
                         <p class="text-muted">Secretário de Comunicação, Markinting e Evento</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/in/arthur-queiroz-327102330" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-link"></i></a>
+                            <li><a href="http://lattes.cnpq.br/9035308553273544" target="_blank"><i class="fa fa-link"></i></a>
                             </li>
                         </ul>
                     </div>    
@@ -437,29 +446,14 @@
                         <h4>Ariadne Silva</h4>
                         <p class="text-muted">Secretária de Finanças</p>
                         <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            <li><a href="https://www.linkedin.com/in/ariadne-cecília-evangelista-da-silva-95a40a1b3" target="_blank"><i class="fa fa-linkedin"></i></a>
                             </li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a>
                             </li>
-                            <li><a href="#"><i class="fa fa-link"></i></a>
+                            <li><a href="http://lattes.cnpq.br/6123472969547605" target="_blank"><i class="fa fa-link"></i></a>
                             </li>
                         </ul>
                     </div>    
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <img src="img/team/6.jpg" class="img-responsive img-circle" alt="Clara">
-                        <h4>Maria Clara Freitas</h4>
-                        <p class="text-muted">Secretária Adjunta</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="row">
@@ -508,15 +502,33 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Localização</h2>
-                    <br>
-                    <br>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417.20001691289235!2d-35.19986605588028!3d-5.8418343578847205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffb91d869d4d%3A0xd44d50345401757c!2sCAeCOMP%20-%20Centro%20Academico%20de%20Engenharia%20da%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1727466358037!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <h3 class="section-subheading text-muted" style="color: #000000;  max-width: 60%; background-color: whitesmoke; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-align: left;"
+                        style="color: #fff; max-width: 100%; margin: 0 auto; padding: 15px; text-align: left;" 
+                        class="section-subheading text-muted">
+                        <br> Entre o setor 3 e o setor 4. <br>
 
-                    <h4 style="color: black; width: 550px; background-color: whitesmoke; class="section-subheading text-muted" ><br> Entre o setor 3 e o setor 4. <br> Próximo à OCA. <br> Confira os horários de atendimento <a href="https://docs.google.com/spreadsheets/d/1iRfv5_h7QSyL_JF1ibJEgs4O8p4WQ85Ytp7ofryJkYg/edit?usp=sharing" target="b">aqui</a> <br> Qualquer dúvida: caengcompufrn@gmail.com <br></h4>
+                        Próximo à OCA. <br>
+                        Confira os horários de atendimento 
+                        <a href="https://docs.google.com/spreadsheets/d/1iRfv5_h7QSyL_JF1ibJEgs4O8p4WQ85Ytp7ofryJkYg/edit?usp=sharing" target="_blank">
+                          <strong>aqui</strong>
+                        </a> 
+                        <br> Qualquer dúvida: 
+                        <a href="mailto:caengcompufrn@gmail.com"><strong> caengcompufrn@gmail.com</strong> </a>
+                        <br>
+                      </h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
+                    <div style="position: relative; width: 60%; padding-bottom: 56.25%; /* Proporção de 16:9 */">
+                        <iframe 
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417.20001691289235!2d-35.19986605588028!3d-5.8418343578847205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ffb91d869d4d%3A0xd44d50345401757c!2sCAeCOMP%20-%20Centro%20Academico%20de%20Engenharia%20da%20Computa%C3%A7%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1727466358037!5m2!1spt-BR!2sbr" 
+                          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+                          allowfullscreen="" 
+                          loading="lazy" 
+                          referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                      </div>
                 </div>
             </div>
         </div>
@@ -526,8 +538,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">CAEComp - UFRN © 
-                        <br>Gestão Frances Allen 2024.
+                    <span class="copyright">CAEComp - UFRN &copy; 2024 Gestão Frances Allen
+                        <br>
                         caengcompufrn@gmail.com
                     </span>
                 </div>
@@ -535,25 +547,24 @@
                     <ul class="list-inline social-buttons">
                         <li><a href="https://www.instagram.com/caecompufrn/" target="_blank"><i class="fa fa-instagram"></i></a>
                         </li>
-                        <li><a href="https://youtube.com/@centroacademicodeengenhari8473?si=CoqdQWWP1nq2AY4J" target="_blank"><i class="fa fa-youtube"></i></a>
-                        </li>
                         <li><a href="https://discord.com/invite/kVJyUYV" target="_blank"><i class="fab fa-discord"></i></a>
+                        </li>
+                        <li><a href="https://youtube.com/@centroacademicodeengenhari8473?si=CoqdQWWP1nq2AY4J" target="_blank"><i class="fa fa-youtube"></i></a>
                         </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li>Site desenvolvido por</li> <li>Marcelo Melo</li> 
-                        <li>Ramylla Barbalho</li>
-                        <li> Arthur Queiroz</li> <li>Emelyn Freire</li>
-                        <li>Ariadne da Silva</li> <li>Maria Clara Freitas</li>
+                        <li style="color: #01232d"<a href="#">Desenvolvido por Ramylla Barbalho | Marcelo Melo | Arthur Queiroz | Emelyn Freire </a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Use the modals below to showcase details about your projects! -->
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
@@ -569,7 +580,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
+                            <h2>PDF</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                             <img class="img-responsive" src="img/portfolio/roundicons-free.png" alt="">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
@@ -580,7 +591,7 @@
                                 <li>Client: Round Icons</li>
                                 <li>Category: Graphic Design</li>
                             </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
                     </div>
                 </div>
@@ -601,11 +612,13 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Eventos</h2>
-                            <p class="item-intro text-muted">Divulgação de eventos e atividades.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/Eventos.jpeg" alt="">
-                            <p>Procuramos sempre manter os alunos do nosso curso informados sobre ativades, projetos e eventos promovidos pela UFRN ou parcerias.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
+                            <h2>ENEDS 2024 (Salvador/BA)</h2>
+                            <p class="item-intro text-muted">Veja nossa participação no ENEDS 2024.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/eneds.png" alt="">
+                            Entre os dias 12 e 15 de novembro, o Centro Acadêmico de Engenharia de Computação da UFRN teve a honra de participar do Encontro Nacional de Engenharia e Desenvolvimento Social (ENEDS), realizado em Salvador, Bahia.
+
+                            Foram quatro dias de aprendizado, troca de experiências e inspiração ao lado de pessoas de todo o Brasil, unidas pelo propósito de mostrar que a engenharia pode ser agente de transformação social. Vimos na prática como a tecnologia pode criar soluções para problemas reais, promover inclusão e contribuir para um futuro mais sustentável e justo para todos. </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -627,11 +640,19 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Palestras</h2>
-                            <p class="item-intro text-muted"></p>
+                            <h2>Mostra de profissões 2024</h2>
+                            <p class="item-intro text-muted">Veja como foi nossa participação na mostra de profissões UFRN (2024)</p>
                             <img class="img-responsive img-centered" src="img/portfolio/palestras.jpg" alt="">
-                            <p>Prezamos pela participação em eventos que nos conectem mais com os estudantes da nossa engenharia, como a semana de C&T e de Engenharia de Computação.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
+                            <p>Nos dias 15 e 16 de outubro, o Centro Acadêmico de Engenharia de Computação (CAECOMP), junto com estudantes voluntários e a Coordenação do curso, participou da Mostra de Profissões da UFRN 2024 (@mostraufrn ).
+
+                                Durante o evento, estudantes do ensino médio, curiosos e a comunidade em geral tiveram a oportunidade de conhecer a universidade e interagir com alunos, descobrindo mais sobre o curso de Engenharia de Computação. Essa troca de experiências, além de ser esclarecedora, é uma forma de inspirar futuros universitários e reforçar a importância das escolhas que moldam nosso futuro.
+                                
+                                Acreditamos que ao apresentar o curso, não apenas motivamos quem está no processo de decisão, mas também redescobrimos nossa própria jornada, refletindo sobre as razões que nos trouxeram até aqui. Apesar dos desafios que o curso apresenta, é extremamente gratificante compartilhar nossas vivências e as inúmeras oportunidades que surgem ao longo dessa trajetória.
+                                
+                                Essa experiência nos lembra de como o caminho que escolhemos, embora árduo, é também repleto de realizações e possibilidades transformadoras.
+                                
+                            </p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -653,12 +674,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Camisas</h2>
-                            <p class="item-intro text-muted"></p>
+                            <h2>Encomende sua camisa da engenharia de computação</h2>Veja abaixo os modelos</p>
                             <img class="img-responsive img-centered" src="img/portfolio/camisetas-1.png" alt="">
                             <img class="img-responsive img-centered" src="img/portfolio/camisetas-2.png" alt="">
-                            <p>Camisetas disponíveis atualmente para venda.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Voltar</button>
+                            <p>Entre em contato conosco e encomende sua camisa da engenharia e faça parte da comunidade EngComp UFRN.</p>                         
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -680,12 +700,52 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                            <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <h2>Procura-se antigos membros do CAEComp</h2>
+                            <p class="item-intro text-muted">Entre em contato conosco se você participou das gestões anteriores do CAEComp ou conhece alguém que fez parte.</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/post1.png" alt="">
+                            <div>
+                                <p>
+                                <br><strong>2016/2017</strong>
+
+                                <br>Presidência: Clara Martins
+                                Vice-Presidência: Bárbara Soares
+                                Secretaria Geral: Dannilo de Carvalho Rodrigues
+                                Secretaria Adjunta: Larissa Xavier
+                                Secretaria de Finanças: Haniel Huam
+                                Comunicação, Marketing e Eventos: Glauco Dantas, Daniel Morais, Kyury
+
+                                <br><strong>2020/2021</strong>
+
+                                <br>Presidente: Matheus Brito
+                                Vice-Presidente: Mariana Queiroz
+                                Secretaria Geral: Douglas Carvalho
+                                Secretaria Adjunta: Aline Pereira
+                                Finanças: Tales Costa, Diego Diógenes
+                                Comunicação, Marketing e Eventos: Manoel Neto, Larissa Kelmer
+
+                                <br><strong>2022/2023 - Katherine Johnson</strong>
+
+                                <br>Presidente: Emelyn Clementino Freire
+                                Vice-Presidente: Enzo Rangel Monteiro da Silva
+                                Secretaria Geral: Deborah Victória Lima Moreira, Ítalo Maciel de Paiva
+                                Secretaria Adjunta: Marta Maira Brito Barbosa
+                                Finanças: Kadja Nazareth Fernandes Rocha
+                                Comunicação, Marketing e Eventos: Yuri Ferreira Borges, Ivamar Dantas Roque, Maria Clara Moura de Freitas
+
+                                <br><strong>2023/2024 - Grace Hopper</strong>
+
+                                <br>Presidente: Emelyn Clementino Freire
+                                Vice-Presidente: Maria Clara Moura de Freitas
+                                Secretaria Geral: Lucila Gabriela Gomes Costa
+                                Secretaria Adjunta: Iure Franklin de Lima Morais
+                                Finanças: Ana Clara Fernandes Vieira
+                                Comunicação, Marketing e Eventos: Marcelo Jorge Oliveira de Albuquerque Melo
+                                <br><br>
+
+                                Se você participou de alguma dessas gestões ou conhece alguém que fez parte, marque nos comentários ou envie uma mensagem! <br>
+                                </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -707,12 +767,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
+                            <h2>Manual do calouro 2024</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                             <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                            <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
                         </div>
                     </div>
                 </div>
@@ -739,4 +797,5 @@
     <script src="js/agency.js"></script>
 
 </body>
+
 </html>

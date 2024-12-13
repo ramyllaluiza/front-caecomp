@@ -4,10 +4,17 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
 */
 
-body {
-    overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 
 .text-muted {
     color: #777;
@@ -206,12 +213,13 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #fed136;
-    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9); /* Sombra escura */
 }
+
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -235,7 +243,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color: #01232d;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -263,19 +271,36 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align:right; /* Ajuste para centralizar em telas menores */
+    text-align: right; /* Centraliza o texto no container */
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/LOGO_DEFINITIVA_SEM_FUNDO.svg);
-    background-position: left; /* Centraliza a imagem */
+    background-position: left; /* Centraliza a imagem no container */
     background-repeat: no-repeat;
-    background-size: contain; /* Faz a imagem cobrir todo o container */
+    background-size: contain; /* Ajusta a imagem ao tamanho do container */
     background-color: #01232d;
     height: 90vh; /* Altura do header */
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* Media Query: Ajusta o tamanho da imagem em telas menores */
+@media (max-width: 768px) {
+    header {
+        background-size: 150%; /* Aumenta o tamanho da imagem */
+        background-position: center;
+    }
+}
+
+@media (max-width: 558px) {
+    header {
+        background-size: 200%; /* Ainda maior para telas muito pequenas */
+        background-position: center;
+    }
+}
+
+
 
 header .intro-text {
     padding-top: 100px;
@@ -284,8 +309,8 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
     font-style: italic;
     line-height: 22px;
 }
@@ -293,13 +318,33 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 50px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
     font-weight: 700;
     line-height: 50px;
 }
 
-@media(min-width:768px) {
+/* Ocultar .minha-div em telas menores que 508px */
+@media (max-width: 768px) {
+    .minha-div {
+        display: none;
+    }
+}
+
+/* Ocultar .minha-div em telas menores que 768px */
+@media (max-width: 768px) {
+    .minha-div {
+        display: none;
+    }
+
+    header .intro-text {
+        padding-top: 200px;
+        padding-bottom: 150px;
+    }
+}
+
+/* Estilização para telas maiores que 768px */
+@media (min-width: 768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -307,7 +352,7 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -316,12 +361,13 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
     }
 }
+
 
 section {
     padding: 100px 0;
